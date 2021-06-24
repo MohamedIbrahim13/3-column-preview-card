@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  height: 100%;
+}
+@media screen and (min-width: 576px) {
+  body {
+    height: 100vh;
+  }
+}
+
+h1, h2, h4, h4, h5, h6 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+  letter-spacing: 0.25px;
+}
+
+h1, h2, h4, h4, h5, h6, p {
+  color: #f2f2f2;
+}
+
+a {
+  background: #f2f2f2 !important;
+}
+
+a:hover {
+  border: 2px solid #f2f2f2;
+  background: inherit !important;
+}
+
+.bg-orange {
+  background: #e38826;
+}
+
+#sedan {
+  color: #e38826 !important;
+}
+
+.bg-cyan {
+  background: #006970;
+}
+
+#suv {
+  color: #006970 !important;
+}
+
+.bg-dark-cyan {
+  background: #004241;
+}
+
+#lux {
+  color: #004241 !important;
+}
+
+#sedan:hover, #suv:hover, #lux:hover {
+  color: #f2f2f2 !important;
+}

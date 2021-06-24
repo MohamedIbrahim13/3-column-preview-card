@@ -1,0 +1,65 @@
+@import "variables";
+@import "mixins";
+
+@include mQ(576px) {}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: $fontSize;
+    font-family: $bodyFont;
+    height:100%;
+    @include mQ(576px) {
+        height:100vh;
+    }
+
+}
+
+h1,h2,h4,h4,h5,h6{
+    font-family:$headFont;
+    
+}
+p{
+    letter-spacing: 0.25px;
+}
+
+h1,h2,h4,h4,h5,h6,p{
+    color: $Verylightgray;
+}
+
+
+a{
+    
+    background:$Verylightgray !important;
+}
+
+
+a:hover{
+    border:2px solid $Verylightgray;
+    background:inherit !important;
+    
+}
+
+.bg-orange{
+    background:$Brightorange;
+}
+#sedan{
+    color:$Brightorange !important;
+}
+
+.bg-cyan{
+    background:$Darkcyan;
+}
+#suv{
+    color:$Darkcyan !important;
+}
+
+.bg-dark-cyan{
+    background:$Verydarkcyan;
+}
+#lux{
+    color:$Verydarkcyan !important;
+}
+#sedan:hover,#suv:hover,#lux:hover{
+    color:$Verylightgray !important;
+}
